@@ -1,0 +1,25 @@
+/* Set body to be a flex container with a column direction */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+/* Header and footer styling */
+header, footer,aside {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Article styling, takes 2/3 of the width */
+article ,main{
+    flex: 2; /* Takes 2/3 of the width */
+    padding: 20px;
+    background-color: lightgray;
+    overflow-y: auto; /* Enables scrolling if content overflows */
+}
