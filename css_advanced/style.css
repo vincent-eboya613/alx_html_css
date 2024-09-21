@@ -1,0 +1,264 @@
+
+  
+/* Set body to be a flex container with a column direction */
+body {
+    text-align: center;
+    background-image: url("Object.png");
+;
+}
+nav {
+    display: flex;
+    color:black;
+    justify-content: right;
+    gap: 20px; /* Adds space between the text items */
+}
+h1 {
+    font-size: 36px; /* Increase the font size for Get Schooled */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+div {
+    text-align: center;
+    color: white;
+
+}
+button {
+    background-color: #C271FF;  /* Sets the button's background color */
+    color: white;              /* Text color */
+    padding: 15px 15px;        /* Ensures the button has equal padding for a square shape */
+    border-radius: 20px;       /* Creates rounded edges */
+    border: none;              /* Removes the border */
+    font-size: 16px;           /* Sets a reasonable font size */
+    cursor: pointer;          
+    display: inline-block;
+    margin-top: 20px;          
+}
+h1 {
+    font-size: 70px;    /* Increases the size of the "Get Schooled" text */
+    text-align: center; /* Centers the heading */
+    margin-top: 20px;   /* Adds space above the heading */
+    color: #ffff;       /* Ensures the text is black */
+}
+
+.learn-text {
+    text-align: center;      
+    margin-top: 200px;         /* Adds space between the button and this text */
+    font-size: 24px;          
+}
+
+
+.learn-text .learn {
+    color: purple;            
+    font-size: 28px;          
+    font-weight: bold; }
+
+    .pros-section {
+        display: flex;              
+        justify-content: space-around;  
+        margin-top: 50px;        
+        padding: 0 20px;           
+    }
+    
+    /* Style for each pro */
+    .pro {
+        text-align: center;          
+    }
+    
+    /* Style for pro images */
+    .pro-image {
+        width: 100px;              /* Adjust the size as needed */
+        height: auto;              
+        border-radius: 10px;       /* Rounded edges for images */
+    }
+
+    .quote-section {
+        background-color: #C271FF;         /* Set the background color to purple */
+        color: white;                     /* Sets text color to white for contrast */
+        padding: 20px;                   /* Adds padding around the section */
+        margin-top: 30px;                /* Adds space above the quote section */
+    }
+    
+    /* Style for the quote text */
+    .quote-text {
+        max-width: 500px;                /* Limits the width of the text */
+        margin: 0 auto;                  /* Centers the text within the section */
+    }
+    
+    /* Style for the blockquote */
+    blockquote {
+        font-size: 20px;                 /* Size of the quote */
+        margin: 0;                       /* Removes default margin */
+    }
+    
+    /* Style for the cite */
+    cite {
+        font-style: italic;              /* Italics for the author's name */
+    }
+
+    /* Style for the popular tutorials section */
+.popular-tutorials {
+    margin-top: 30px;                /* Space above the section */
+    padding: 20px;                   /* Padding around the section */
+}
+
+/* Style for the heading */
+.popular-tutorials h2 {
+    font-size: 24px;                 /* Size of the heading */
+}
+
+/* Style for the purple text */
+.purple {
+    color: purple;                   /* Color for the word "Popular" */
+}
+
+/* Style for the tutorials container */
+.tutorials {
+    display: flex;                   /* Display tutorials in a row */
+    gap: 20px;                       /* Space between tutorials */
+    flex-wrap: wrap;                 /* Wrap to next line if needed */
+}
+
+/* Style for each tutorial */
+/* Style for each tutorial */
+.tutorial {
+    width: calc(25% - 20px);        /* Set width to 25% for four items */
+    background-color: #f9f9f9;      /* Background color for the tutorial box */
+    border-radius: 8px;              /* Rounded corners */
+    padding: 10px;                   /* Padding inside the tutorial box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Ensure the tutorials container can accommodate the items */
+.tutorials {
+    display: flex;                   /* Display tutorials in a row */
+    gap: 20px;                       /* Space between tutorials */
+    flex-wrap: wrap;                 /* Wrap to next line if needed */
+}
+
+
+/* Adjustments to padding/margins can be done as needed */
+.popular-tutorials {
+    margin-top: 30px;                /* Space above the section */
+    padding: 20px;                   /* Padding around the section */
+    background-color: #e0e0e0;       /* Set your desired background color here */
+}
+
+/* Style for Free Membership Section */
+.free-membership-section {
+    background-color: #071629;      /* Dark background color */
+    color: white;                   /* Set text color to white for contrast */
+    padding: 20px;                  /* Add padding for spacing */
+    text-align: center;             /* Center align text */
+    margin-top: 20px;               /* Space above the section if needed */
+    border-radius: 8px;             /* Optional: rounded corners */
+}
+
+/* Style for the pink word */
+.pink {
+    color: pink;                      /* Pink color for the word "free" */
+}
+
+/* Style for membership images */
+.membership-images {
+    display: flex;                    /* Flexbox for horizontal layout */
+    justify-content: space-around;    /* Space between items */
+    margin-top: 20px;                /* Margin for spacing */
+}
+
+/* Style for individual membership items */
+.membership-item {
+    width: 30%;                      /* Set width for items */
+    text-align: center;              /* Center align text */
+}
+
+/* Style for membership image */
+.membership-image {
+    width: 100%;                     /* Full width for images */
+    border-radius: 8px;             /* Rounded corners */
+}
+
+/* Style for Register button */
+.register-btn {
+    display: inline-block;           /* Inline block for proper sizing */
+    background-color: pink;         /* Pink background */
+    color: white;                   /* White text color */
+    padding: 10px 20px;             /* Padding for button */
+    border: none;                   /* Remove border */
+    border-radius: 20px;            /* Circular edges */
+    text-decoration: none;           /* Remove underline */
+    margin-top: 10px;               /* Margin above the button */
+}
+/* F.A.Q Section Styles */
+.faq-section {
+    background-color: white;          /* White background for the section */
+    padding: 20px;                   /* Padding around the section */
+    margin-top: -0.5px;                 /* Space above the section (5cm) */
+    border-radius: 0;                /* Remove rounded corners for full width */
+    width: 100%;                     /* Full width */
+    box-sizing: border-box;           /* Include padding in width calculation */
+}
+
+/* F.A.Q Heading Style */
+.faq-heading {
+    font-size: 2.5em;                 /* Large font size for the heading */
+    margin-bottom: 20px;              /* Space below the heading */
+    color: black;                     /* Ensure heading is black */
+}
+
+/* Container for FAQ items */
+.faq-container {
+    display: flex;                    /* Flexbox for side-by-side layout */
+    justify-content: space-around;    /* Space between items */
+    flex-wrap: wrap;                  /* Wrap items to new lines if needed */
+}
+
+/* Styles for individual FAQ items */
+.faq-item {
+    width: 45%;                       /* Set width for each item */
+    margin: 10px;                    /* Margin for spacing */
+}
+
+/* Styles for question and description */
+.faq-question {
+    font-size: 1.5em;                 /* Font size for questions */
+    margin-bottom: 10px;              /* Space below the question */
+    color: black;                     /* Ensure question text is black */
+}
+
+.faq-description {
+    font-size: 1em;                   /* Font size for descriptions */
+    color: black;                     /* Ensure description text is black */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #071629;        /* Match background color */
+    color: white;                     /* Text color */
+    padding: 20px;                    /* Padding for footer */
+    display: flex;                    /* Flexbox for layout */
+    justify-content: space-between;    /* Space between logo and images */
+    align-items: center;               /* Center items vertically */
+}
+
+.footer-logo {
+    margin-right: auto;                /* Push logo to the left */
+}
+
+.footer-images {
+    display: flex;                    /* Flexbox for images */
+    margin-left: auto;                /* Push images to the right */
+}
+
+.footer-image {
+    width: 50px;                      /* Adjust size of images */
+    height: auto;                     /* Maintain aspect ratio */
+    margin-left: 10px;                /* Space between images */
+}
+
+.footer-text {
+    text-align: center;               /* Center align footer text */
+    margin-top: 10px;                 /* Space above footer text */
+}
