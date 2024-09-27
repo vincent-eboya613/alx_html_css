@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("headphones_hero_1.jpg");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+/* Content styling */
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Centered Paragraph */
+.centered-paragraph {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+    color: black;
+}
+
+/* "What We Do" Section */
+.what-we-do {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.what-we-do h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.what-we-do .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.what-we-do img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* "Our Results" Section */
+.results-section {
+    padding: 60px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.results-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.results-image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.results-image-gallery img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Animations */
+/* Scaling and bouncing for the "What We Do" section */
+.what-we-do img:hover {
+    transform: scale(1.1) rotate(10deg);
+    opacity: 0.9;
+    animation: bounce 0.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Scaling and rotation for the "Our Results" section */
+.results-image-gallery img:hover {
+    transform: rotate(20deg) scale(1.2);
+    opacity: 0.7;
+}
